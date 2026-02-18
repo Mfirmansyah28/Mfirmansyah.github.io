@@ -1,0 +1,1081 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      M. Firmansyah – Junior Web Developer & Python Automation Developer
+    </title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="#" class="logo">My Portfolio</a>
+
+          <button class="hamburger-menu" id="hamburgerBtn">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+          </button>
+
+          <div class="nav-links" id="navLinks">
+            <a href="#tentang">Tentang</a>
+            <a href="#keahlian">Keahlian</a>
+            <a href="#proyek">Proyek</a>
+            <a href="#pengalaman">Pengalaman</a>
+            <a href="#kontak">Kontak</a>
+            <div class="availability">
+              <span class="availability-dot"></span>
+              Available for Work
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <div class="hero-badge">
+              <i class="fas fa-bolt"></i>
+              Available for Work
+            </div>
+            <h1>
+              <span class="name">M. Firmansyah</span>
+              <div class="greeting-wrapper">
+                <span class="greeting">Hello I'm A</span>
+                <span class="role" id="typewriterRole"></span>
+              </div>
+            </h1>
+
+            <div class="hero-social">
+              <a
+                href="https://linkedin.com/in/m-firmansyah-5306aa200"
+                target="_blank"
+                class="social-icon linkedin"
+                title="LinkedIn"
+              >
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+
+              <a
+                href="https://github.com/Mfirmasyah"
+                target="_blank"
+                class="social-icon github"
+                title="GitHub"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+
+              <a
+                href="https://wa.me/6282171762304"
+                target="_blank"
+                class="social-icon whatsapp"
+                title="WhatsApp"
+              >
+                <i class="fab fa-whatsapp"></i>
+              </a>
+
+              <a
+                href="mailto:muhammadfirmansyah401@gmail.com"
+                class="social-icon email"
+                title="Email"
+              >
+                <i class="fas fa-envelope"></i>
+              </a>
+            </div>
+
+            <div class="hero-actions">
+              <a
+                href="assets/cv/M_Firmansyah_CV_IT_2026.pdf"
+                download
+                class="btn-download-cv"
+              >
+                <i class="fas fa-download"></i>
+                Download CV
+              </a>
+              <a href="#kontak" class="btn-hire">
+                <i class="fas fa-paper-plane"></i>
+                Hire Me
+              </a>
+            </div>
+          </div>
+
+          <!-- Kolom Kanan: TECH STACK LOGO ONLY -->
+          <div class="hero-tech-logo-only">
+            <div class="tech-logo-header">
+              <span class="tech-logo-title">TECH STACK</span>
+              <span class="tech-logo-count">12 technologies</span>
+            </div>
+
+            <div class="tech-logo-only-grid">
+              <!-- Baris 1 -->
+              <div class="tech-logo-only-item" title="Python">
+                <i class="fab fa-python"></i>
+              </div>
+              <div class="tech-logo-only-item" title="React">
+                <i class="fab fa-react"></i>
+              </div>
+              <div class="tech-logo-only-item" title="JavaScript">
+                <i class="fab fa-js"></i>
+              </div>
+              <div class="tech-logo-only-item" title="HTML5">
+                <i class="fab fa-html5"></i>
+              </div>
+
+              <!-- Baris 2 -->
+              <div class="tech-logo-only-item" title="CSS3">
+                <i class="fab fa-css3-alt"></i>
+              </div>
+              <div class="tech-logo-only-item" title="Node.js">
+                <i class="fab fa-node"></i>
+              </div>
+              <div class="tech-logo-only-item" title="Git">
+                <i class="fab fa-git-alt"></i>
+              </div>
+              <div class="tech-logo-only-item" title="GitHub">
+                <i class="fab fa-github"></i>
+              </div>
+
+              <!-- Baris 3 -->
+              <div class="tech-logo-only-item" title="MongoDB">
+                <i class="fas fa-database"></i>
+              </div>
+              <div class="tech-logo-only-item" title="VS Code">
+                <i class="fas fa-code"></i>
+              </div>
+              <div class="tech-logo-only-item" title="Selenium">
+                <i class="fas fa-robot"></i>
+              </div>
+              <div class="tech-logo-only-item" title="Pandas">
+                <i class="fas fa-table"></i>
+              </div>
+            </div>
+
+            <div class="tech-logo-footer">
+              <div class="availability-status">
+                <span class="status-dot"></span>
+                <span>Available for freelance</span>
+              </div>
+              <div class="footer-tools">
+                <i class="fas fa-cog" title="Tools"></i>
+                <i class="fas fa-terminal" title="Terminal"></i>
+                <i class="fas fa-cloud" title="Cloud"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="tentang" class="about">
+      <div class="container">
+        <h2 class="section-title">
+          <i class="fas fa-user"></i>
+          Tentang Saya
+        </h2>
+        <div class="about-grid">
+          <!-- Kolom Kiri: Teks -->
+          <div class="about-text">
+            <p>
+              Saya adalah seorang Junior Frontend & Fullstack Developer
+              sekaligus Python Automation Engineer dengan semangat belajar yang
+              tinggi.
+            </p>
+            <p>
+              Memiliki pengalaman nyata mengembangkan website produksi dari 0
+              hingga go-live dan membangun 7 script automation untuk Kementerian
+              Kemendukbangga yang mengoptimalkan proses pengisian data secara
+              signifikan. Saya adalah fast learner yang mampu menguasai
+              teknologi baru secara mandiri.
+            </p>
+          </div>
+
+          <div class="about-photo">
+            <div class="photo-frame">
+              <img
+                src="assets/img/pas_foto.jpg"
+                alt="M. Firmansyah"
+                class="profile-photo"
+              />
+            </div>
+            <div class="photo-caption">
+              <span>M. Firmansyah</span>
+              <small>Junior Fullstack Developer | Python Automation</small>
+            </div>
+          </div>
+
+          <!-- Kolom Kanan: Pendidikan & Sertifikat -->
+          <div class="about-right">
+            <div class="education-card">
+              <h3>S1 Teknik Informatika</h3>
+              <div class="education-meta">
+                Universitas Putra Indonesia YPTK Padang
+              </div>
+              <div class="education-meta">IPK 2.96 / 4.00 · 2019 – 2024</div>
+            </div>
+            <div class="certifications">
+              <h4>7 Sertifikasi Dicoding</h4>
+              <div class="cert-badges">
+                <span class="cert-badge">Front-End Web</span>
+                <span class="cert-badge">JavaScript</span>
+                <span class="cert-badge">Java</span>
+                <span class="cert-badge">Dasar AI</span>
+                <span class="cert-badge">Data Science</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="sertifikat" class="certifications">
+      <div class="container">
+        <h2 class="section-title">
+          <i class="fas fa-certificate"></i>
+          Sertifikasi & Kompetensi
+        </h2>
+        <p class="section-subtitle">
+          7 sertifikasi profesional dari Dicoding yang telah saya raih
+        </p>
+
+        <div class="cert-grid">
+          <!-- 1. Belajar Dasar AI -->
+          <div class="cert-card">
+            <div class="cert-card-inner">
+              <div class="cert-card-front">
+                <div class="cert-icon-large">
+                  <i class="fas fa-robot"></i>
+                </div>
+                <h3>Belajar Dasar AI</h3>
+                <p>Artificial Intelligence</p>
+                <div class="cert-badge">Dicoding</div>
+              </div>
+              <div class="cert-card-back">
+                <div class="cert-detail">
+                  <h4>Belajar Dasar AI</h4>
+                  <div class="cert-meta">
+                    <span><i class="fas fa-calendar"></i> 04 Des 2025</span>
+                    <span><i class="fas fa-star"></i> Kompeten</span>
+                  </div>
+                  <p class="cert-desc">
+                    Konsep dasar AI, data untuk AI, machine learning, dan deep
+                    learning.
+                  </p>
+                  <div class="cert-skills">
+                    <span>AI Concepts</span>
+                    <span>Machine Learning</span>
+                    <span>Deep Learning</span>
+                  </div>
+                  <a
+                    href="https://dicoding.com/certificates/53XEKGLMKXRN"
+                    target="_blank"
+                    class="cert-link"
+                  >
+                    <i class="fas fa-external-link-alt"></i> 53XEKGLMKXRN
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2. Belajar Dasar Pemrograman JavaScript -->
+          <div class="cert-card">
+            <div class="cert-card-inner">
+              <div class="cert-card-front">
+                <div class="cert-icon-large">
+                  <i class="fab fa-js"></i>
+                </div>
+                <h3>Dasar JavaScript</h3>
+                <p>Programming Fundamentals</p>
+                <div class="cert-badge">Dicoding</div>
+              </div>
+              <div class="cert-card-back">
+                <div class="cert-detail">
+                  <h4>Belajar Dasar Pemrograman JavaScript</h4>
+                  <div class="cert-meta">
+                    <span><i class="fas fa-calendar"></i> 20 Juli 2025</span>
+                    <span><i class="fas fa-star"></i> Kompeten</span>
+                  </div>
+                  <p class="cert-desc">
+                    Sintaks JavaScript, function, OOP, functional programming,
+                    asynchronous process.
+                  </p>
+                  <div class="cert-skills">
+                    <span>ES6+</span>
+                    <span>OOP</span>
+                    <span>Async/Await</span>
+                    <span>Node.js</span>
+                  </div>
+                  <a
+                    href="https://dicoding.com/certificates/KEXL24YV0ZG2"
+                    target="_blank"
+                    class="cert-link"
+                  >
+                    <i class="fas fa-external-link-alt"></i> KEXL24YV0ZG2
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3. Membuat Front-End Web untuk Pemula -->
+          <div class="cert-card">
+            <div class="cert-card-inner">
+              <div class="cert-card-front">
+                <div class="cert-icon-large">
+                  <i class="fab fa-html5"></i>
+                </div>
+                <h3>Front-End Web Pemula</h3>
+                <p>Web Development</p>
+                <div class="cert-badge">Dicoding</div>
+              </div>
+              <div class="cert-card-back">
+                <div class="cert-detail">
+                  <h4>Belajar Membuat Front-End Web untuk Pemula</h4>
+                  <div class="cert-meta">
+                    <span><i class="fas fa-calendar"></i> 01 Agustus 2025</span>
+                    <span><i class="fas fa-star"></i> Kompeten</span>
+                  </div>
+                  <p class="cert-desc">
+                    BOM, DOM manipulation, event handling, dan web storage.
+                  </p>
+                  <div class="cert-skills">
+                    <span>DOM</span>
+                    <span>Events</span>
+                    <span>Web Storage</span>
+                  </div>
+                  <a
+                    href="https://dicoding.com/certificates/JMZVVMRL3ZN9"
+                    target="_blank"
+                    class="cert-link"
+                  >
+                    <i class="fas fa-external-link-alt"></i> JMZVVMRL3ZN9
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4. Fundamental Front-End Web Development -->
+          <div class="cert-card">
+            <div class="cert-card-inner">
+              <div class="cert-card-front">
+                <div class="cert-icon-large">
+                  <i class="fab fa-react"></i>
+                </div>
+                <h3>Fundamental Front-End</h3>
+                <p>Advanced Front-End</p>
+                <div class="cert-badge">Dicoding</div>
+              </div>
+              <div class="cert-card-back">
+                <div class="cert-detail">
+                  <h4>Belajar Fundamental Front-End Web Development</h4>
+                  <div class="cert-meta">
+                    <span
+                      ><i class="fas fa-calendar"></i> 27 September 2025</span
+                    >
+                    <span><i class="fas fa-star"></i> Kompeten</span>
+                  </div>
+                  <p class="cert-desc">
+                    CSS grid, web component, package manager, module bundler,
+                    dan asynchronous request.
+                  </p>
+                  <div class="cert-skills">
+                    <span>CSS Grid</span>
+                    <span>Web Component</span>
+                    <span>Webpack</span>
+                    <span>Fetch API</span>
+                  </div>
+                  <a
+                    href="https://dicoding.com/certificates/GRX5J207YX0M"
+                    target="_blank"
+                    class="cert-link"
+                  >
+                    <i class="fas fa-external-link-alt"></i> GRX5J207YX0M
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 5. Memulai Pemrograman Dengan Java -->
+          <div class="cert-card">
+            <div class="cert-card-inner">
+              <div class="cert-card-front">
+                <div class="cert-icon-large">
+                  <i class="fab fa-java"></i>
+                </div>
+                <h3>Pemrograman Java</h3>
+                <p>Java Fundamentals</p>
+                <div class="cert-badge">Dicoding</div>
+              </div>
+              <div class="cert-card-back">
+                <div class="cert-detail">
+                  <h4>Memulai Pemrograman Dengan Java</h4>
+                  <div class="cert-meta">
+                    <span><i class="fas fa-calendar"></i> 03 Agustus 2025</span>
+                    <span><i class="fas fa-star"></i> Kompeten</span>
+                  </div>
+                  <p class="cert-desc">
+                    Dasar Java, control flow, collection, OOP, common class.
+                  </p>
+                  <div class="cert-skills">
+                    <span>OOP</span>
+                    <span>Java SE</span>
+                    <span>Collections</span>
+                  </div>
+                  <a
+                    href="https://dicoding.com/certificates/MEPJ254OLP3V"
+                    target="_blank"
+                    class="cert-link"
+                  >
+                    <i class="fas fa-external-link-alt"></i> MEPJ254OLP3V
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 6. Belajar Dasar Pemrograman Web -->
+          <div class="cert-card">
+            <div class="cert-card-inner">
+              <div class="cert-card-front">
+                <div class="cert-icon-large">
+                  <i class="fas fa-code"></i>
+                </div>
+                <h3>Dasar Pemrograman Web</h3>
+                <p>HTML & CSS</p>
+                <div class="cert-badge">Dicoding</div>
+              </div>
+              <div class="cert-card-back">
+                <div class="cert-detail">
+                  <h4>Belajar Dasar Pemrograman Web</h4>
+                  <div class="cert-meta">
+                    <span><i class="fas fa-calendar"></i> 27 Juni 2025</span>
+                    <span><i class="fas fa-star"></i> Kompeten</span>
+                  </div>
+                  <p class="cert-desc">
+                    HTML dasar & lanjutan, CSS dasar & lanjutan, flexbox,
+                    responsive design.
+                  </p>
+                  <div class="cert-skills">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>Flexbox</span>
+                    <span>Responsive</span>
+                  </div>
+                  <a
+                    href="https://dicoding.com/certificates/0LZ05OG83X65"
+                    target="_blank"
+                    class="cert-link"
+                  >
+                    <i class="fas fa-external-link-alt"></i> 0LZ05OG83X65
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 7. Belajar Penerapan Data Science dengan Microsoft Fabric -->
+          <div class="cert-card">
+            <div class="cert-card-inner">
+              <div class="cert-card-front">
+                <div class="cert-icon-large">
+                  <i class="fas fa-chart-bar"></i>
+                </div>
+                <h3>Data Science</h3>
+                <p>Microsoft Fabric</p>
+                <div class="cert-badge">Dicoding</div>
+              </div>
+              <div class="cert-card-back">
+                <div class="cert-detail">
+                  <h4>Penerapan Data Science dengan Microsoft Fabric</h4>
+                  <div class="cert-meta">
+                    <span><i class="fas fa-calendar"></i> 26 Des 2025</span>
+                    <span><i class="fas fa-star"></i> Kompeten</span>
+                  </div>
+                  <p class="cert-desc">
+                    Data wrangling, machine learning dengan MLflow, batch
+                    prediction di Microsoft Fabric.
+                  </p>
+                  <div class="cert-skills">
+                    <span>MLflow</span>
+                    <span>Data Wrangler</span>
+                    <span>Microsoft Fabric</span>
+                  </div>
+                  <a
+                    href="https://dicoding.com/certificates/MRZM6348KPYQ"
+                    target="_blank"
+                    class="cert-link"
+                  >
+                    <i class="fas fa-external-link-alt"></i> MRZM6348KPYQ
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- View All Button -->
+        <div class="cert-footer">
+          <a
+            href="https://www.dicoding.com/users/firman28/academies"
+            target="_blank"
+            class="btn-view-all"
+          >
+            <i class="fas fa-external-link-alt"></i> Lihat Semua Sertifikat di
+            Dicoding
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="keahlian" class="skills">
+      <div class="container">
+        <h2 class="section-title">
+          <i class="fas fa-code"></i>
+          Keahlian Teknis
+        </h2>
+
+        <!-- Python Automation -->
+        <div class="skill-category">
+          <h3>
+            <i class="fab fa-python"></i>
+            Python Automation
+            <span class="skill-level">Menengah – Lanjut</span>
+          </h3>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">Python</span>
+                <span class="skill-percent">80%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="80"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">Selenium</span>
+                <span class="skill-percent">80%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="80"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">Pandas</span>
+                <span class="skill-percent">75%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="75"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">OpenPyXL</span>
+                <span class="skill-percent">75%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="75"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Web Development -->
+        <div class="skill-category">
+          <h3>
+            <i class="fas fa-globe"></i>
+            Web Development
+            <span class="skill-level">Menengah</span>
+          </h3>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">React.js / Vite</span>
+                <span class="skill-percent">70%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="70"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">JavaScript</span>
+                <span class="skill-percent">70%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="70"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">HTML5 & CSS3</span>
+                <span class="skill-percent">75%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="75"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">Bootstrap</span>
+                <span class="skill-percent">65%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="65"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Backend & Database -->
+        <div class="skill-category">
+          <h3>
+            <i class="fas fa-database"></i>
+            Backend & Database
+            <span class="skill-level">Dasar – Menengah</span>
+          </h3>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">Strapi / REST API</span>
+                <span class="skill-percent">60%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="60"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">MySQL</span>
+                <span class="skill-percent">65%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="65"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">SQLite</span>
+                <span class="skill-percent">60%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="60"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">MongoDB</span>
+                <span class="skill-percent">55%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="55"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tools & Platform -->
+        <div class="skill-category">
+          <h3>
+            <i class="fas fa-tools"></i>
+            Tools & Platform
+            <span class="skill-level">Menengah</span>
+          </h3>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">Git / GitHub</span>
+                <span class="skill-percent">70%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="70"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">VS Code</span>
+                <span class="skill-percent">85%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="85"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">Cloudinary</span>
+                <span class="skill-percent">65%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="65"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">Linux CLI</span>
+                <span class="skill-percent">60%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="60"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Soft Skills -->
+        <div class="soft-skills">
+          <h3>Soft Skills</h3>
+          <div class="soft-skills-grid">
+            <span class="soft-skill">Problem Solving</span>
+            <span class="soft-skill">Komunikasi Klien</span>
+            <span class="soft-skill">Manajemen Waktu</span>
+            <span class="soft-skill">Adaptabilitas</span>
+            <span class="soft-skill">Fast Learner</span>
+            <span class="soft-skill">Kerja Mandiri</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="proyek" class="projects">
+      <div class="container">
+        <h2 class="section-title">
+          <i class="fas fa-code-branch"></i>
+          Proyek Portfolio
+        </h2>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <div class="project-card">
+            <div class="project-header">
+              <div class="project-icon">
+                <i class="fas fa-robot"></i>
+              </div>
+              <span class="project-badge featured">Featured</span>
+            </div>
+            <h3 class="project-title">
+              Python Form Automation – Kemendukbangga
+            </h3>
+            <div class="project-date">Okt 2025 – Des 2025</div>
+            <p class="project-description">
+              7 script Python untuk mengotomatisasi pengisian form web sistem
+              SIGA menggunakan data dari file Excel. Menghasilkan efisiensi
+              proses hingga 80% dengan error logging otomatis.
+            </p>
+            <div class="project-impact">
+              <i class="fas fa-bolt"></i> 80% efisiensi
+            </div>
+            <div class="project-tech">
+              <span>Python</span>
+              <span>Selenium</span>
+              <span>Pandas</span>
+              <span>OpenPyXL</span>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card">
+            <div class="project-header">
+              <div class="project-icon">
+                <i class="fas fa-school"></i>
+              </div>
+              <span class="project-badge featured">Featured</span>
+            </div>
+            <h3 class="project-title">
+              Website Yayasan Pendidikan Islam Mutiara Al-Madani
+            </h3>
+            <div class="project-date">Sep 2025 – Nov 2025</div>
+            <p class="project-description">
+              Website profile yayasan produksi aktif dari 0 hingga go-live
+              menggunakan React.js + Vite dan Strapi sebagai headless CMS.
+              Integrasi Cloudinary meningkatkan loading speed 40%.
+            </p>
+            <div class="project-impact">
+              <i class="fas fa-bolt"></i> 40% loading speed
+            </div>
+            <div class="project-tech">
+              <span>React.js</span>
+              <span>Vite</span>
+              <span>Strapi</span>
+              <span>Cloudinary</span>
+            </div>
+            <a href="#" class="project-link">
+              <i class="fas fa-external-link-alt"></i> ypimutiaraalmadani.my.id
+            </a>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-card">
+            <div class="project-header">
+              <div class="project-icon">
+                <i class="fas fa-sticky-note"></i>
+              </div>
+            </div>
+            <h3 class="project-title">NoteApp</h3>
+            <div class="project-date">Jul – Ags 2025</div>
+            <p class="project-description">
+              Aplikasi catatan dengan fitur CRUD lengkap, data tersimpan di
+              browser menggunakan localStorage. Dibangun dengan JavaScript
+              murni.
+            </p>
+            <div class="project-impact">
+              <i class="fas fa-bolt"></i> CRUD App
+            </div>
+            <div class="project-tech">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript DOM</span>
+            </div>
+          </div>
+
+          <!-- Project 4 -->
+          <div class="project-card">
+            <div class="project-header">
+              <div class="project-icon">
+                <i class="fas fa-book"></i>
+              </div>
+            </div>
+            <h3 class="project-title">Bookshelf App</h3>
+            <div class="project-date">Jul – Ags 2025</div>
+            <p class="project-description">
+              Rak buku digital dengan kategori belum dibaca dan sudah dibaca.
+              Lulus submission Dicoding dengan JavaScript murni tanpa framework.
+            </p>
+            <div class="project-impact">
+              <i class="fas fa-bolt"></i> Dicoding Certified
+            </div>
+            <div class="project-tech">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript DOM</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="pengalaman" class="experience">
+      <div class="container">
+        <h2 class="section-title">
+          <i class="fas fa-briefcase"></i>
+          Pengalaman Kerja
+        </h2>
+
+        <!-- Experience 1 -->
+        <div class="experience-card">
+          <div class="exp-header">
+            <div>
+              <h3>Fullstack Developer (Freelance – Project Based)</h3>
+              <h4>Yayasan Pendidikan Islam Mutiara Al-Madani · Sungai Penuh</h4>
+            </div>
+            <div class="exp-date">Sep 2025 – Nov 2025</div>
+          </div>
+          <ul class="exp-list">
+            <li>
+              Mengembangkan website profile yayasan dari 0 hingga
+              production-ready menggunakan React.js (Vite) untuk front-end dan
+              Strapi sebagai headless CMS
+            </li>
+            <li>
+              Mengintegrasikan Cloudinary untuk manajemen asset gambar dan
+              video, meningkatkan kecepatan loading website hingga 40%
+            </li>
+            <li>
+              Mendesain arsitektur database dan RESTful API untuk konten dinamis
+            </li>
+            <li>
+              Berkoordinasi langsung dengan tim konten non-teknis untuk
+              memastikan kemudahan pengelolaan
+            </li>
+            <li>
+              Website saat ini digunakan aktif untuk publikasi informasi yayasan
+            </li>
+          </ul>
+          <div class="exp-tech">
+            <span>React.js</span>
+            <span>Vite</span>
+            <span>Strapi</span>
+            <span>Cloudinary</span>
+            <span>REST API</span>
+          </div>
+          <a href="#" class="exp-link">
+            <i class="fas fa-external-link-alt"></i>
+            https://ypimutiaraalmadani.my.id
+          </a>
+        </div>
+
+        <!-- Experience 2 -->
+        <div class="experience-card">
+          <div class="exp-header">
+            <div>
+              <h3>Python Automation Developer (Freelance – Project Based)</h3>
+              <h4>Kementerian Kemendukbangga · Remote</h4>
+            </div>
+            <div class="exp-date">Okt 2025 – Des 2025</div>
+          </div>
+          <ul class="exp-list">
+            <li>Membangun 7 script Python dengan sistem bayaran per script</li>
+            <li>
+              Mengotomatisasi pengisian form web sistem SIGA menggunakan data
+              dari file Excel
+            </li>
+            <li>
+              Memproses data dari Excel dengan Pandas/OpenPyXL dan menginputnya
+              ke form web via Selenium
+            </li>
+            <li>Menghasilkan efisiensi proses pengisian data hingga 80%</li>
+            <li>
+              Dilengkapi error logging untuk mendeteksi data yang gagal di-input
+            </li>
+          </ul>
+          <div class="exp-tech">
+            <span>Python</span>
+            <span>Selenium</span>
+            <span>Pandas</span>
+            <span>OpenPyXL</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="kontak" class="contact">
+      <div class="container">
+        <h2 class="section-title">
+          <i class="fas fa-envelope"></i>
+          Hubungi Saya
+        </h2>
+
+        <div class="contact-grid">
+          <!-- Contact Info - SEKARANG HANYA SOCIAL LINKS -->
+          <div class="contact-info">
+            <!-- SOCIAL MEDIA LINKS - 4 IKON (TANPA INFO LAIN) -->
+            <div class="contact-social-media">
+              <h4 class="contact-social-title">Temukan saya di:</h4>
+              <div class="contact-social-icons">
+                <!-- LinkedIn -->
+                <a
+                  href="https://linkedin.com/in/m-firmansyah-5306aa200"
+                  target="_blank"
+                  class="contact-social-icon linkedin"
+                  title="LinkedIn"
+                >
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+
+                <!-- GitHub -->
+                <a
+                  href="https://github.com/Mfirmasyah"
+                  target="_blank"
+                  class="contact-social-icon github"
+                  title="GitHub"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+
+                <!-- WhatsApp -->
+                <a
+                  href="https://wa.me/6282171762304"
+                  target="_blank"
+                  class="contact-social-icon whatsapp"
+                  title="WhatsApp"
+                >
+                  <i class="fab fa-whatsapp"></i>
+                </a>
+
+                <!-- Email -->
+                <a
+                  href="mailto:muhammadfirmansyah401@gmail.com"
+                  class="contact-social-icon email"
+                  title="Email"
+                >
+                  <i class="fas fa-envelope"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Tombol Kirim Email (tetap ada) -->
+            <div class="contact-btn-container">
+              <a
+                href="mailto:muhammadfirmansyah401@gmail.com"
+                class="contact-btn"
+              >
+                <i class="fas fa-paper-plane"></i> Kirim Email Sekarang
+              </a>
+            </div>
+          </div>
+
+          <!-- CTA (Kanan) - TETAP SAMA -->
+          <div class="contact-cta">
+            <h3>Siap untuk berkolaborasi?</h3>
+            <p>
+              Apakah Anda membutuhkan developer untuk project web, automation
+              Python, atau solusi full-stack? Saya siap membantu mewujudkan ide
+              Anda menjadi produk nyata.
+            </p>
+            <ul class="service-list">
+              <li>
+                <i class="fas fa-check"></i> Website & Web App Development
+              </li>
+              <li><i class="fas fa-check"></i> Python Automation Scripts</li>
+              <li>
+                <i class="fas fa-check"></i> Fullstack Project (React + Backend)
+              </li>
+              <li>
+                <i class="fas fa-check"></i> CMS Integration & API Development
+              </li>
+            </ul>
+            <a
+              href="https://wa.me/6282171762304"
+              target="_blank"
+              class="whatsapp-btn"
+            >
+              <i class="fab fa-whatsapp"></i> Chat via WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p>
+          © 2026 M. Firmansyah – Junior Fullstack Developer & Python Automation
+          Developer
+        </p>
+      </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
